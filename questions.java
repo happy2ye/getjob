@@ -36,3 +36,19 @@ public class solution1108{
 
 // if know charAt(), this really is a easy question.
 // good start
+
+// back to real
+//leetcode Q771
+
+class Solution {
+    public int numJewelsInStones(String J, String S) {
+        int count = 0;
+        for(int scount = 0; scount <S.length(); scount++){
+            if(J.indexOf(S.charAt(scount)) != -1){
+                count++;
+            }
+        }
+        return count;
+        
+    }
+}
