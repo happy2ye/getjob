@@ -38,7 +38,7 @@ public class solution1108{
 // good start
 
 // back to real
-//leetcode Q771
+// leetcode Q771
 
 class Solution {
     public int numJewelsInStones(String J, String S) {
@@ -48,7 +48,6 @@ class Solution {
                 count++;
             }
         }
-        return count;
-        
+        return count;     
     }
 }
