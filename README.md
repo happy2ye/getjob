@@ -1,2 +1,2 @@
 # study notes
-python of AI
+python coding for AI
